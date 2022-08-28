@@ -1,0 +1,301 @@
+.topnav {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0% 10% 0% 10%;
+    z-index: 5;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.logo {
+    height: 35px;
+    width: 235px;
+}
+
+/* .nav-head {
+    margin: 300px 0 0 0 !important;
+
+} */
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 15px;
+    opacity: 0.9;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgba(209, 209, 209, 0.289);
+    border-radius: 15px;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+    background-color: rgb(209, 209, 209);
+    color: rgb(0, 0, 0);
+}
+
+.topnav a:after {
+    background-color: rgb(209, 209, 209);
+    color: rgb(0, 0, 0);
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+.topnav a:not(:first-child) {
+    float: right;
+}
+
+.div1 {
+    /* z-index: 0; */
+    padding: 4% 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div11 {
+    /* z-index: -1; */
+    width: 60%;
+    background: radial-gradient(98.13% 220.3% at 1.87% 50%, #FFF0BE 2.08%, #FFFFFF 100%);
+}
+
+.div12 {
+    /* z-index: 0; */
+    width: 40%;
+}
+
+.div111 {
+    padding: 15% 0 0 16.66%;
+}
+
+.hd1 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.pg1 {
+    font-weight: 400;
+    font-size: 20px;
+    width: 730px;
+    line-height: 30px;
+}
+
+.img1 {
+    height: 580px;
+    float: right;
+}
+
+.btn1 {
+    font-size: 22px;
+    font-weight: 400;
+    background-color: #CA4141;
+    color: white;
+    padding: 3.5px 40px 5px 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer !important;
+}
+
+.btn1:hover {
+    background-color: rgb(15, 177, 15) !important;
+    transition: 400ms;
+    border: none;
+
+}
+
+.btn1:after {
+    border: none;
+    background-color: green;
+    border: none;
+
+}
+
+.div2 {
+    margin: 2% 0 0 0;
+    padding: 0 10% 0 10%;
+}
+
+.hd2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #004763;
+}
+
+.div21 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1% 0 0 0;
+    /* border: 1px solid #A2A2A2; */
+}
+
+.div211 {
+    width: 23%;
+    margin: 0 2% 2% 0;
+    padding: 1% 0 0 0;
+    border: solid 2px #A2A2A2;
+    background: rgba(255, 240, 190, 0.21);
+    height: 17.5rem;
+    border-radius: 15px;
+
+}
+
+.img2 {
+    width: 90%;
+}
+
+/* .card1 {
+    border: solid 2px grey;
+} */
+.desc {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    padding: 7px;
+}
+
+.div3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5% 0 2% 0;
+    height: 435px;
+    background-color: #FFF4CD;
+
+}
+
+.div31 {
+    width: 30%;
+    background-color: #FFF4CD;
+}
+
+.div32 {
+    margin: 2% 0 0 0;
+    width: 60%;
+    background-color: #FFF4CD;
+    /* padding: 0 10 0 0%; */
+}
+
+.img9 {
+    height: 435px;
+}
+
+.pg2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.hd3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+        margin: 10% 5% 0 0;
+    }
+
+    .topnav {
+        background-color: rgb(255, 255, 255);
+        overflow: hidden;
+        margin-left: 5%;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .logo {
+        height: 100px;
+        margin-top: 0%;
+    }
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 464px) {
+
+    .topnav {
+        background-color: rgb(255, 255, 255);
+        overflow: hidden;
+        margin-left: 1.5%;
+    }
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: #000000;
+        text-align: center;
+        padding: 3px 3px;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 10px 0 0 8%;
+    }
+
+    .logo {
+        height: 100px;
+        margin-top: 0%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
