@@ -13,6 +13,25 @@
     <title>AKK Rhinoplasty</title>
 
 
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script>
+        function SubForm() {
+            $.ajax({
+                url: "https://api.apispreadsheets.com/data/NLad0bX4TyNkeci7/",
+                type: "post",
+                data: $("#myForm").serializeArray(),
+                success: function () {
+                    alert("Form Data Submitted :)")
+                },
+                error: function () {
+                    alert("There was an error :(")
+                }
+            });
+        }
+    </script>
+
+
 </head>
 
 <body>
@@ -51,7 +70,7 @@
                     beauty procedures, nose plastic surgery is called Rhinoplasty
                 </div>
                 <br>
-                <a href="#">
+                <a href="#contact">
                     <button class="btn1">
                         Book an Appointment
                     </button>
@@ -236,7 +255,7 @@
     </div>
 
     <center>
-        <a href="#">
+        <a href="#contact">
             <button class="btn1">
                 Book an Appointment
             </button>
@@ -359,7 +378,7 @@
 
 
     <center>
-        <a href="#">
+        <a href="#contact">
             <button class="btn1">
                 Book an Appointment
             </button>
@@ -371,7 +390,7 @@
 
 
 
-    <div class="div7">
+    <div class="div7" id="types">
 
         <div class="hd7">
             Types of nose surgery
@@ -581,7 +600,7 @@
 
 
 
-    <div class="div10m">
+    <div class="div10m" id="consult">
 
         <center>
             <div class="hd10b">
@@ -687,7 +706,7 @@
                 <div class="div10b">
                     <div class="div102a">
 
-                        <a href="#">
+                        <a href="#contact">
                             <button class="btn1">
                                 Book an Appointment
                             </button>
@@ -696,7 +715,8 @@
                     </div>
                     <div class="div102b">
 
-                        <a href="#">
+                        <a target="_blank" title="Contact Us On WhatsApp"
+                            href="https://api.whatsapp.com/send?phone=+919507816000&text=Hi,%20I%20would%20like%20to%20get%20appointment..">
                             <button class="btn3">
                                 Connect to Whatsapp
                             </button>
@@ -753,7 +773,7 @@
 
 
 
-    <div class="d14">
+    <div class="d14" id="faq">
         <center>
             <br>
             <br>
@@ -895,20 +915,20 @@
 
 
 
-    <div class="d15">
+    <div class="d15" id="contact">
         <center>
             <div class="hd15">
                 CONTACT US/ BOOK AN APPOINTMENT
             </div>
         </center>
 
-        <div class="form-box" id="contact">
+        <div class="form-box">
 
             <center>
                 <form class="form-inp" id="myForm">
                     <input type="text" id="fname" name="name" class="inp1" placeholder="Name">
 
-                    <input type="number" id="fname" name="contact" class="inp6" placeholder="Contact no.">
+                    <input type="number" id="fname" name="phone" class="inp6" placeholder="Contact no.">
 
                     <input type="text" id="fname" name="email" class="inp2" placeholder="Email Id">
 
@@ -917,7 +937,6 @@
                     <input type="" id="fname" name="message" class="inp4" placeholder="Type your message (Brief)">
 
                     <br><br>
-
                 </form>
 
                 <button type="submit" name="submit" class="sub-btn" placeholder="Submit"
