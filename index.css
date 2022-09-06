@@ -968,7 +968,7 @@
     .hd1 {
         font-weight: 600;
         font-size: 20px;
-        line-height: 25px;
+        line-height: 40px;
     }
 
     .pg1 {
@@ -1274,7 +1274,7 @@
         padding: 1% 0 0 0;
         border: solid 2px #A2A2A2;
         background: rgba(255, 240, 190, 0.21);
-        height: 10.8rem;
+        height: 10rem;
         border-radius: 15px;
     }
 
@@ -1346,7 +1346,7 @@
         font-weight: 700;
         line-height: 22px;
         color: #004763;
-        margin: 5% 0 0 0;
+        margin: 6% 0 0 6%;
     }
 
     .div6 {
@@ -1797,7 +1797,11 @@
         margin: 5% 2% 0px 2%;
     }
 
-
+    img {
+        vertical-align: middle;
+        border-style: none;
+        width: 90%;
+    }
 
 
 
