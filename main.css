@@ -119,4 +119,147 @@
 
 .mn55 {
     background: #FFF0BE;
+    padding: 0 0 3% 0;
+}
+
+.mn66 {
+    background: white;
+}
+
+.md6 {
+    margin: 1% 0 0 0;
+    padding: 2% 0 0 0;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #004763;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 464px) {
+    .mn1 {
+        padding: 15% 5% 0 5%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .mn11 {
+        width: 33%;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration-line: underline;
+        color: #004763;
+    }
+
+    .mn12 {
+        width: 34%;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration-line: underline;
+        color: #004763;
+    }
+
+    .mn13 {
+        width: 33%;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration-line: underline;
+        color: #004763;
+    }
+
+    .mh1 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+    }
+
+    .mn3 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2% 5% 0 5%;
+    }
+
+    .mn31 {
+        width: 100%;
+    }
+
+    .mh3 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #004763;
+        text-align: center;
+    }
+
+    .mp3 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+    }
+
+    .mn32 {
+        width: 75%;
+    }
+
+    .mi15 {
+        width: 66%;
+        float: right;
+        /* align-self: center; */
+    }
+
+    .mh4 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 23px;
+        color: #004763;
+        margin: 3% 0 0 0;
+        text-align: center !important;
+        width: 100%;
+    }
+
+    .mp4 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+    }
+
+    .md5 {
+        margin: 4% 0 0 0;
+        padding: 2% 0 0 0;
+        font-weight: 650;
+        font-size: 20px;
+        line-height: 22px;
+        color: #004763;
+        width: 100%;
+    }
+
+    .mn5 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2% 5% 0 5%;
+        margin: 0% 0 0 0;
+    }
+
+    .md6 {
+        margin: 1% 0 0 0;
+        padding: 2% 0 0 0;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: #004763;
+        width: 100%;
+    }
+
+
+
+
+
+
 }
