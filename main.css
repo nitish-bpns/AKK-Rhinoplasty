@@ -1,0 +1,122 @@
+.mn1 {
+    padding: 8% 10% 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mn11 {
+    width: 33%;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #004763;
+}
+
+.mn12 {
+    width: 34%;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #004763;
+}
+
+.mn13 {
+    width: 33%;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #004763;
+}
+
+.ml1,
+.ml2,
+.ml3 {
+    color: green;
+}
+
+.mh1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.mn3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 15% 0 15%;
+}
+
+.mn31 {
+    width: 80%;
+
+}
+
+.mn32 {
+    width: 20%;
+
+}
+
+.mi15 {
+    width: 90%;
+    float: right;
+}
+
+.mh3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #004763;
+}
+
+.mp3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+
+}
+
+.mh4 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #004763;
+    margin: 2% 0 0 0;
+}
+
+.mp4 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+
+}
+
+.md5 {
+    margin: 4% 0 0 0;
+    padding: 2% 0 0 0;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #004763;
+    width: 100%;
+}
+
+.mn5 {
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 15% 0 15%;
+    margin: 0% 0 0 0;
+}
+
+.mn55 {
+    background: #EEEEEE;
+}
