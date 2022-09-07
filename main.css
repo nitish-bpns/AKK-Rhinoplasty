@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .mn1 {
     padding: 8% 10% 0 10%;
     display: flex;
